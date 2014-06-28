@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551F49091911EFA1003771DE /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F49041911EFA1003771DE /* calendar.png */; };
+		551F490A1911EFA1003771DE /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F49051911EFA1003771DE /* camera.png */; };
+		551F490B1911EFA1003771DE /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F49061911EFA1003771DE /* chat.png */; };
+		551F490C1911EFA1003771DE /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F49071911EFA1003771DE /* gear.png */; };
+		551F490D1911EFA1003771DE /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F49081911EFA1003771DE /* newspaper.png */; };
+		556CAC0C1916AA13003F1983 /* TabelaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 556CAC0B1916AA13003F1983 /* TabelaTableViewCell.m */; };
+		556CAC111916B2E9003F1983 /* MMPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 556CAC101916B2E9003F1983 /* MMPickerView.m */; };
+		55E0EF26190D98DE00457AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E0EF25190D98DE00457AF7 /* Foundation.framework */; };
+		55E0EF28190D98DE00457AF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E0EF27190D98DE00457AF7 /* CoreGraphics.framework */; };
+		55E0EF2A190D98DE00457AF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E0EF29190D98DE00457AF7 /* UIKit.framework */; };
+		55E0EF30190D98DE00457AF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E0EF2E190D98DE00457AF7 /* InfoPlist.strings */; };
+		55E0EF32190D98DE00457AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF31190D98DE00457AF7 /* main.m */; };
+		55E0EF36190D98DE00457AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF35190D98DE00457AF7 /* AppDelegate.m */; };
+		55E0EF39190D98DE00457AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E0EF37190D98DE00457AF7 /* Main.storyboard */; };
+		55E0EF41190D98DE00457AF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E0EF40190D98DE00457AF7 /* Images.xcassets */; };
+		55E0EF62190D9BE800457AF7 /* TabelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF61190D9BE800457AF7 /* TabelaViewController.m */; };
+		55E0EF65190D9BF900457AF7 /* NoticiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF64190D9BF900457AF7 /* NoticiaViewController.m */; };
+		55E0EF68190D9C0800457AF7 /* PalpiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF67190D9C0800457AF7 /* PalpiteViewController.m */; };
+		55E0EF6B190D9C1800457AF7 /* TorcedorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF6A190D9C1800457AF7 /* TorcedorViewController.m */; };
+		55E0EF6E190D9C4900457AF7 /* DetalheNoticiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF6D190D9C4900457AF7 /* DetalheNoticiaViewController.m */; };
+		55E0EF71190D9C7600457AF7 /* TabelaLandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF70190D9C7600457AF7 /* TabelaLandViewController.m */; };
+		55E0EF74190D9C8C00457AF7 /* PalpiteLandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0EF73190D9C8C00457AF7 /* PalpiteLandViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		551F49041911EFA1003771DE /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = Images/calendar.png; sourceTree = "<group>"; };
+		551F49051911EFA1003771DE /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = Images/camera.png; sourceTree = "<group>"; };
+		551F49061911EFA1003771DE /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat.png; path = Images/chat.png; sourceTree = "<group>"; };
+		551F49071911EFA1003771DE /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = Images/gear.png; sourceTree = "<group>"; };
+		551F49081911EFA1003771DE /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newspaper.png; path = Images/newspaper.png; sourceTree = "<group>"; };
+		556CAC0A1916AA13003F1983 /* TabelaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabelaTableViewCell.h; path = TableViewCells/TabelaTableViewCell.h; sourceTree = "<group>"; };
+		556CAC0B1916AA13003F1983 /* TabelaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabelaTableViewCell.m; path = TableViewCells/TabelaTableViewCell.m; sourceTree = "<group>"; };
+		556CAC0F1916B2E9003F1983 /* MMPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPickerView.h; sourceTree = "<group>"; };
+		556CAC101916B2E9003F1983 /* MMPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPickerView.m; sourceTree = "<group>"; };
+		55E0EF22190D98DE00457AF7 /* copadomundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copadomundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E0EF25190D98DE00457AF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E0EF27190D98DE00457AF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55E0EF29190D98DE00457AF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55E0EF2D190D98DE00457AF7 /* copadomundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "copadomundo-Info.plist"; sourceTree = "<group>"; };
+		55E0EF2F190D98DE00457AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55E0EF31190D98DE00457AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E0EF33190D98DE00457AF7 /* copadomundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "copadomundo-Prefix.pch"; sourceTree = "<group>"; };
+		55E0EF34190D98DE00457AF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E0EF35190D98DE00457AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E0EF38190D98DE00457AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E0EF40190D98DE00457AF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55E0EF47190D98DF00457AF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		55E0EF4F190D98DF00457AF7 /* copadomundoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "copadomundoTests-Info.plist"; sourceTree = "<group>"; };
+		55E0EF51190D98DF00457AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55E0EF53190D98DF00457AF7 /* copadomundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = copadomundoTests.m; sourceTree = "<group>"; };
+		55E0EF60190D9BE800457AF7 /* TabelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabelaViewController.h; path = Controllers/TabelaViewController.h; sourceTree = "<group>"; };
+		55E0EF61190D9BE800457AF7 /* TabelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabelaViewController.m; path = Controllers/TabelaViewController.m; sourceTree = "<group>"; };
+		55E0EF63190D9BF900457AF7 /* NoticiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticiaViewController.h; path = Controllers/NoticiaViewController.h; sourceTree = "<group>"; };
+		55E0EF64190D9BF900457AF7 /* NoticiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticiaViewController.m; path = Controllers/NoticiaViewController.m; sourceTree = "<group>"; };
+		55E0EF66190D9C0800457AF7 /* PalpiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PalpiteViewController.h; path = Controllers/PalpiteViewController.h; sourceTree = "<group>"; };
+		55E0EF67190D9C0800457AF7 /* PalpiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalpiteViewController.m; path = Controllers/PalpiteViewController.m; sourceTree = "<group>"; };
+		55E0EF69190D9C1800457AF7 /* TorcedorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorcedorViewController.h; sourceTree = "<group>"; };
+		55E0EF6A190D9C1800457AF7 /* TorcedorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorcedorViewController.m; sourceTree = "<group>"; };
+		55E0EF6C190D9C4900457AF7 /* DetalheNoticiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalheNoticiaViewController.h; path = Controllers/DetalheNoticiaViewController.h; sourceTree = "<group>"; };
+		55E0EF6D190D9C4900457AF7 /* DetalheNoticiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalheNoticiaViewController.m; path = Controllers/DetalheNoticiaViewController.m; sourceTree = "<group>"; };
+		55E0EF6F190D9C7600457AF7 /* TabelaLandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabelaLandViewController.h; path = Controllers/TabelaLandViewController.h; sourceTree = "<group>"; };
+		55E0EF70190D9C7600457AF7 /* TabelaLandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabelaLandViewController.m; path = Controllers/TabelaLandViewController.m; sourceTree = "<group>"; };
+		55E0EF72190D9C8C00457AF7 /* PalpiteLandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PalpiteLandViewController.h; path = Controllers/PalpiteLandViewController.h; sourceTree = "<group>"; };
+		55E0EF73190D9C8C00457AF7 /* PalpiteLandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalpiteLandViewController.m; path = Controllers/PalpiteLandViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E0EF1F190D98DE00457AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E0EF28190D98DE00457AF7 /* CoreGraphics.framework in Frameworks */,
+				55E0EF2A190D98DE00457AF7 /* UIKit.framework in Frameworks */,
+				55E0EF26190D98DE00457AF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551F49031911EF90003771DE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				551F49041911EFA1003771DE /* calendar.png */,
+				551F49051911EFA1003771DE /* camera.png */,
+				551F49061911EFA1003771DE /* chat.png */,
+				551F49071911EFA1003771DE /* gear.png */,
+				551F49081911EFA1003771DE /* newspaper.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		556CAC091916A9D2003F1983 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				556CAC0A1916AA13003F1983 /* TabelaTableViewCell.h */,
+				556CAC0B1916AA13003F1983 /* TabelaTableViewCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		556CAC0D1916B2E9003F1983 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				556CAC0E1916B2E9003F1983 /* MMPickerView */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		556CAC0E1916B2E9003F1983 /* MMPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				556CAC0F1916B2E9003F1983 /* MMPickerView.h */,
+				556CAC101916B2E9003F1983 /* MMPickerView.m */,
+			);
+			path = MMPickerView;
+			sourceTree = "<group>";
+		};
+		55E0EF19190D98DE00457AF7 = {
+			isa = PBXGroup;
+			children = (
+				55E0EF2B190D98DE00457AF7 /* copadomundo */,
+				55E0EF4D190D98DF00457AF7 /* copadomundoTests */,
+				55E0EF24190D98DE00457AF7 /* Frameworks */,
+				55E0EF23190D98DE00457AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E0EF23190D98DE00457AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF22190D98DE00457AF7 /* copadomundo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E0EF24190D98DE00457AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF25190D98DE00457AF7 /* Foundation.framework */,
+				55E0EF27190D98DE00457AF7 /* CoreGraphics.framework */,
+				55E0EF29190D98DE00457AF7 /* UIKit.framework */,
+				55E0EF47190D98DF00457AF7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E0EF2B190D98DE00457AF7 /* copadomundo */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF5D190D9B8400457AF7 /* AppDelegate */,
+				55E0EF5E190D9B9300457AF7 /* Storyboard */,
+				55E0EF5F190D9BAB00457AF7 /* Controllers */,
+				556CAC091916A9D2003F1983 /* TableViewCells */,
+				55E0EF40190D98DE00457AF7 /* Images.xcassets */,
+				55E0EF2C190D98DE00457AF7 /* Supporting Files */,
+			);
+			path = copadomundo;
+			sourceTree = "<group>";
+		};
+		55E0EF2C190D98DE00457AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				556CAC0D1916B2E9003F1983 /* libs */,
+				551F49031911EF90003771DE /* Images */,
+				55E0EF2D190D98DE00457AF7 /* copadomundo-Info.plist */,
+				55E0EF2E190D98DE00457AF7 /* InfoPlist.strings */,
+				55E0EF31190D98DE00457AF7 /* main.m */,
+				55E0EF33190D98DE00457AF7 /* copadomundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55E0EF4D190D98DF00457AF7 /* copadomundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF53190D98DF00457AF7 /* copadomundoTests.m */,
+				55E0EF4E190D98DF00457AF7 /* Supporting Files */,
+			);
+			path = copadomundoTests;
+			sourceTree = "<group>";
+		};
+		55E0EF4E190D98DF00457AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF4F190D98DF00457AF7 /* copadomundoTests-Info.plist */,
+				55E0EF50190D98DF00457AF7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55E0EF5D190D9B8400457AF7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF34190D98DE00457AF7 /* AppDelegate.h */,
+				55E0EF35190D98DE00457AF7 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		55E0EF5E190D9B9300457AF7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF37190D98DE00457AF7 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		55E0EF5F190D9BAB00457AF7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55E0EF60190D9BE800457AF7 /* TabelaViewController.h */,
+				55E0EF61190D9BE800457AF7 /* TabelaViewController.m */,
+				55E0EF6F190D9C7600457AF7 /* TabelaLandViewController.h */,
+				55E0EF70190D9C7600457AF7 /* TabelaLandViewController.m */,
+				55E0EF63190D9BF900457AF7 /* NoticiaViewController.h */,
+				55E0EF64190D9BF900457AF7 /* NoticiaViewController.m */,
+				55E0EF6C190D9C4900457AF7 /* DetalheNoticiaViewController.h */,
+				55E0EF6D190D9C4900457AF7 /* DetalheNoticiaViewController.m */,
+				55E0EF66190D9C0800457AF7 /* PalpiteViewController.h */,
+				55E0EF67190D9C0800457AF7 /* PalpiteViewController.m */,
+				55E0EF72190D9C8C00457AF7 /* PalpiteLandViewController.h */,
+				55E0EF73190D9C8C00457AF7 /* PalpiteLandViewController.m */,
+				55E0EF69190D9C1800457AF7 /* TorcedorViewController.h */,
+				55E0EF6A190D9C1800457AF7 /* TorcedorViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E0EF21190D98DE00457AF7 /* copadomundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E0EF57190D98DF00457AF7 /* Build configuration list for PBXNativeTarget "copadomundo" */;
+			buildPhases = (
+				55E0EF1E190D98DE00457AF7 /* Sources */,
+				55E0EF1F190D98DE00457AF7 /* Frameworks */,
+				55E0EF20190D98DE00457AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = copadomundo;
+			productName = copadomundo;
+			productReference = 55E0EF22190D98DE00457AF7 /* copadomundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E0EF1A190D98DE00457AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = luizsoares;
+			};
+			buildConfigurationList = 55E0EF1D190D98DE00457AF7 /* Build configuration list for PBXProject "copadomundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E0EF19190D98DE00457AF7;
+			productRefGroup = 55E0EF23190D98DE00457AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E0EF21190D98DE00457AF7 /* copadomundo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E0EF20190D98DE00457AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E0EF41190D98DE00457AF7 /* Images.xcassets in Resources */,
+				551F490C1911EFA1003771DE /* gear.png in Resources */,
+				551F49091911EFA1003771DE /* calendar.png in Resources */,
+				55E0EF30190D98DE00457AF7 /* InfoPlist.strings in Resources */,
+				55E0EF39190D98DE00457AF7 /* Main.storyboard in Resources */,
+				551F490D1911EFA1003771DE /* newspaper.png in Resources */,
+				551F490A1911EFA1003771DE /* camera.png in Resources */,
+				551F490B1911EFA1003771DE /* chat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E0EF1E190D98DE00457AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E0EF65190D9BF900457AF7 /* NoticiaViewController.m in Sources */,
+				55E0EF74190D9C8C00457AF7 /* PalpiteLandViewController.m in Sources */,
+				55E0EF68190D9C0800457AF7 /* PalpiteViewController.m in Sources */,
+				55E0EF36190D98DE00457AF7 /* AppDelegate.m in Sources */,
+				55E0EF32190D98DE00457AF7 /* main.m in Sources */,
+				55E0EF71190D9C7600457AF7 /* TabelaLandViewController.m in Sources */,
+				556CAC0C1916AA13003F1983 /* TabelaTableViewCell.m in Sources */,
+				556CAC111916B2E9003F1983 /* MMPickerView.m in Sources */,
+				55E0EF6E190D9C4900457AF7 /* DetalheNoticiaViewController.m in Sources */,
+				55E0EF6B190D9C1800457AF7 /* TorcedorViewController.m in Sources */,
+				55E0EF62190D9BE800457AF7 /* TabelaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55E0EF2E190D98DE00457AF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E0EF2F190D98DE00457AF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55E0EF37190D98DE00457AF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E0EF38190D98DE00457AF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E0EF50190D98DF00457AF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E0EF51190D98DF00457AF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E0EF55190D98DF00457AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E0EF56190D98DF00457AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E0EF58190D98DF00457AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "copadomundo/copadomundo-Prefix.pch";
+				INFOPLIST_FILE = "copadomundo/copadomundo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E0EF59190D98DF00457AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "copadomundo/copadomundo-Prefix.pch";
+				INFOPLIST_FILE = "copadomundo/copadomundo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E0EF1D190D98DE00457AF7 /* Build configuration list for PBXProject "copadomundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E0EF55190D98DF00457AF7 /* Debug */,
+				55E0EF56190D98DF00457AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E0EF57190D98DF00457AF7 /* Build configuration list for PBXNativeTarget "copadomundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E0EF58190D98DF00457AF7 /* Debug */,
+				55E0EF59190D98DF00457AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E0EF1A190D98DE00457AF7 /* Project object */;
+}
